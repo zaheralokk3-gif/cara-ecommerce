@@ -378,6 +378,7 @@ payBtn?.addEventListener("click", payOll);
 
 
 overlay?.addEventListener("click", function() {
+    overlay.classList.remove("on-top");
     alirt.classList.remove("plus");
     document.querySelector("#cart").style.overflow = "auto";
 });
